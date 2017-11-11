@@ -1,44 +1,48 @@
+"""
+Scraping price information from www.coolblue.nl
+to visualize the price distribution per brand.
+"""
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import requests
-
 from bs4 import BeautifulSoup
 
-url = 'https://www.coolblue.nl/producttype:mobiele-telefoons'
+URL = 'https://www.coolblue.nl/producttype:mobiele-telefoons'
 
+def npages(mysoup):
+    """
+    This functions returns the number of pages of URL.
+    """
+    pagination = list()
+    for page_number in mysoup.find_all('a', {'class': 'pagination__content'}):
+        pagination.append(page_number.text.strip())
+    return int(pagination[-2])
 
-def npages(soup):
-    pages = list()
-    for page in soup.find_all('a', {'class': 'pagination__content'}):
-        pages.append(page.text.strip())
-    return int(pages[-2])
+BRAND = list()
+PRODUCT = list()
+PRICE = list()
 
-
-brand_list = list()
-product_list = list()
-price_list = list()
-
-for page in range(1, npages(BeautifulSoup(requests.get(url).text,
+for page in range(1, npages(BeautifulSoup(requests.get(URL).text,
                                           'html.parser')) + 1):
-    soup = BeautifulSoup(requests.get(url + '?pagina=' + str(page)).text,
+    soup = BeautifulSoup(requests.get(URL + '?pagina=' + str(page)).text,
                          'html.parser')
     products = soup.find_all('a', {'class': 'product__title js-product-title'})
     for product in products:
-        product_list.append(str(product.text).strip())
-        brand_list.append(str(product.text).strip().split(' ')[0])
+        PRODUCT.append(str(product.text).strip())
+        BRAND.append(str(product.text).strip().split(' ')[0])
     prices = soup.find_all('strong', {'class': 'product__sales-price'})
     for price in prices:
-        price_list.append(float(str(price.text).strip().strip(',-')
-                                .replace('.', '').replace(',', '.')))
+        PRICE.append(float(str(price.text).strip().strip(',-')
+                           .replace('.', '').replace(',', '.')))
 
-df = pd.DataFrame({'price': price_list,
-                   'product': product_list,
-                   'brand': brand_list})
+SMARTPHONES = pd.DataFrame({'price': PRICE,
+                            'product': PRODUCT,
+                            'brand': BRAND})
 
 sns.boxplot(x="price",
             y="brand",
-            data=df.groupby('brand').filter(lambda x: len(x) > 5),
+            data=SMARTPHONES.groupby('brand').filter(lambda x: len(x) > 5),
             palette="PRGn",
             width=0.8).set_title("Price Distribution per Brand")
 sns.despine(offset=10, trim=True)
