@@ -40,10 +40,10 @@ SMARTPHONES = pd.DataFrame({'price': PRICE,
                             'product': PRODUCT,
                             'brand': BRAND})
 
-sns.boxplot(x="price",
-            y="brand",
+sns.boxplot(x='price',
+            y='brand',
             data=SMARTPHONES.groupby('brand').filter(lambda x: len(x) > 5),
-            palette="PRGn",
-            width=0.8).set_title("Price Distribution per Brand")
+            palette='PRGn',
+            width=0.8).set_title('Price Distribution per Brand')
 sns.despine(offset=10, trim=True)
 plt.show()
