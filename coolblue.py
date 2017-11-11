@@ -36,17 +36,17 @@ for page in range(1, npages(BeautifulSoup(requests.get(URL).text,
         PRICE.append(float(price.text.strip().strip(',-')
                            .replace('.', '').replace(',', '.')))
 
-SMARTPHONES = pd.DataFrame({'price': PRICE,
-                            'product': PRODUCT,
-                            'brand': BRAND})
-SMARTPHONES.to_csv('coolblue.csv', index=False)
+PRICEINFO = pd.DataFrame({'price': PRICE,
+                          'product': PRODUCT,
+                          'brand': BRAND})
+PRICEINFO.to_csv('coolblue.csv', index=False)
 
 X_PIXELS, Y_PIXELS, DPI = 1500, 1000, 150
 X_INCH, Y_INCH = X_PIXELS / DPI, Y_PIXELS / DPI
 plt.figure(figsize=(X_INCH, Y_INCH), dpi=DPI)
 sns.boxplot(x='price',
             y='brand',
-            data=SMARTPHONES.groupby('brand').filter(lambda x: len(x) > 5),
+            data=PRICEINFO.groupby('brand').filter(lambda x: len(x) > 5),
             palette='PRGn',
             width=0.75).set_title('Price Distribution per Brand')
 sns.despine(offset=10, trim=True)
