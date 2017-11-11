@@ -29,11 +29,11 @@ for page in range(1, npages(BeautifulSoup(requests.get(URL).text,
                          'html.parser')
     products = soup.find_all('a', {'class': 'product__title js-product-title'})
     for product in products:
-        PRODUCT.append(str(product.text).strip())
-        BRAND.append(str(product.text).strip().split(' ')[0])
+        PRODUCT.append(product.text.strip())
+        BRAND.append(product.text.strip().split(' ')[0])
     prices = soup.find_all('strong', {'class': 'product__sales-price'})
     for price in prices:
-        PRICE.append(float(str(price.text).strip().strip(',-')
+        PRICE.append(float(price.text.strip().strip(',-')
                            .replace('.', '').replace(',', '.')))
 
 SMARTPHONES = pd.DataFrame({'price': PRICE,
