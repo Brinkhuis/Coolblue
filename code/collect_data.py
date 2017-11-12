@@ -59,23 +59,23 @@ for page in range(1, npages(BeautifulSoup(requests.get(URL).text,
         if highlight_counter > 3:
             highlight_counter = 1
 
-PRICEINFO = pd.DataFrame({'brand': BRAND,
-                          'product': PRODUCT,
-                          'price': PRICE,
-                          'rating': RATING,
-                          'reviews': REVIEWS,
-                          'highlight1': HIGHLIGHT1,
-                          'highlight2': HIGHLIGHT2,
-                          'highlight3': HIGHLIGHT3})
-PRICEINFO.to_csv('coolblue.csv', index=False)
+PRODUCTINFO = pd.DataFrame({'brand': BRAND,
+                            'product': PRODUCT,
+                            'price': PRICE,
+                            'rating': RATING,
+                            'reviews': REVIEWS,
+                            'highlight1': HIGHLIGHT1,
+                            'highlight2': HIGHLIGHT2,
+                            'highlight3': HIGHLIGHT3})
+PRODUCTINFO.to_csv('data/productinfo.csv', index=False)
 
 X_PIXELS, Y_PIXELS, DPI = 1500, 1000, 150
 X_INCH, Y_INCH = X_PIXELS / DPI, Y_PIXELS / DPI
 plt.figure(figsize=(X_INCH, Y_INCH), dpi=DPI)
 sns.boxplot(x='price',
             y='brand',
-            data=PRICEINFO.groupby('brand').filter(lambda x: len(x) > 5),
+            data=PRODUCTINFO.groupby('brand').filter(lambda x: len(x) > 5),
             palette='PRGn',
             width=0.75).set_title('Price Distribution per Brand')
 sns.despine(offset=10, trim=True)
-plt.savefig('coolblue.png')
+plt.savefig('plots/price_distribution.png')
