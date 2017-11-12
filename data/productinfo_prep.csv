@@ -39,7 +39,7 @@ Motorola,Android 7.1 Nougat,"5,5 inch Full HD scherm",32 GB opslagcapaciteit,299
 Huawei,Android 6.0 Marshmallow,5 inch HD scherm,16 GB opslagcapaciteit,137.0,Huawei Y6 (2017) Grijs,4.5,25,Android 6.0,5 inch,16 GB
 Motorola,Android 6.0 Marshmallow,"5,5 inch Full HD scherm",16 GB opslagcapaciteit,149.0,Motorola Moto G4 Zwart,4.5,508,Android 6.0,"5,5 inch",16 GB
 Apple,iOS 11,"5,5 inch Retina HD scherm",64 GB opslagcapaciteit,899.0,Apple iPhone 8 Plus 64GB Space Grey,4.5,91,iOS 11,"5,5 inch",64 GB
-Nokia,Merkgebonden besturingssysteem,"2,4 inch kleurenscherm",64 MB opslagcapaciteit,59.99,Nokia 3310 3G Grijs,4.5,13,Merkgebonden besturingssysteem,"2,4 inch",64 MB
+Nokia,Merkgebonden besturingssysteem,"2,4 inch kleurenscherm",64 MB opslagcapaciteit,59.99,Nokia 3310 3G Grijs,4.5,13,,"2,4 inch",64 MB
 Wileyfox,Android 7.1,5.2 inch Full HD scherm,32 GB opslagcapaciteit,198.0,Wileyfox Swift 2 X Blauw,4.5,307,Android 7.1,5.2 inch,32 GB
 Apple,iOS 11,"4,7 inch Retina HD scherm",256 GB opslagcapaciteit,949.0,Apple iPhone 8 256GB Space Grey,4.5,70,iOS 11,"4,7 inch",256 GB
 Samsung,Android 7.0 Nougat,5 inch HD scherm,16 GB opslagcapaciteit,199.0,Samsung Galaxy J3 (2017) Zwart,4.5,17,Android 7.0,5 inch,16 GB
@@ -71,7 +71,7 @@ Motorola,Android 7.1 Nougat,"5,2 inch Full HD scherm",64 GB opslagcapaciteit,379
 Motorola,Android 7.0 Nougat,"5,0 inch Full HD scherm",16 GB opslagcapaciteit,179.0,Motorola Moto G5 Goud,4.5,439,Android 7.0,"5,0 inch",16 GB
 Apple,iOS 9.3,4 inch Retina scherm,128 GB opslagcapaciteit,469.0,Apple iPhone SE 128GB Zilver,4.5,2030,iOS 9.3,4 inch,128 GB
 Samsung,Android 7.0 Nougat,"6,2 inch Quad HD scherm",64 GB opslagcapaciteit,799.0,Samsung Galaxy S8 Plus Zwart,5.0,282,Android 7.0,"6,2 inch",64 GB
-Nokia,Merkgebonden besturingssysteem,"2,4 inch kleurenscherm",64 MB opslagcapaciteit,59.99,Nokia 3310 3G Blauw,4.5,13,Merkgebonden besturingssysteem,"2,4 inch",64 MB
+Nokia,Merkgebonden besturingssysteem,"2,4 inch kleurenscherm",64 MB opslagcapaciteit,59.99,Nokia 3310 3G Blauw,4.5,13,,"2,4 inch",64 MB
 Samsung,Android 7.0 Nougat,"6,2 inch Quad HD scherm",64 GB opslagcapaciteit,799.0,Samsung Galaxy S8 Plus Zwart,5.0,282,Android 7.0,"6,2 inch",64 GB
 Apple,iOS 11,"5,5 inch Retina HD scherm",64 GB opslagcapaciteit,899.0,Apple iPhone 8 Plus 64GB Zilver,4.5,91,iOS 11,"5,5 inch",64 GB
 Samsung,Android 6.0 Marshmallow,"5,1 inch Quad HD scherm",32 GB opslagcapaciteit,479.0,Samsung Galaxy S7 Goud,4.5,856,Android 6.0,"5,1 inch",32 GB
@@ -93,7 +93,7 @@ Emporia,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,49.0,Emporia Flip 
 Apple,iOS 10,"5,5 inch Retina HD scherm",32 GB opslagcapaciteit,779.0,Apple iPhone 7 Plus 32 GB Zwart,4.5,93,iOS 10,"5,5 inch",32 GB
 Doro,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,189.0,Doro 8031 Zwart,4.5,30,,,
 Huawei,Android 7.0 Nougat,"5,1 inch Full HD scherm",64 GB opslagcapaciteit,549.0,Huawei P10 Zwart,4.5,70,Android 7.0,"5,1 inch",64 GB
-Nokia,Merkgebonden besturingssysteem,"2,4 inch kleurenscherm",64 MB opslagcapaciteit,59.99,Nokia 3310 3G Geel,4.5,13,Merkgebonden besturingssysteem,"2,4 inch",64 MB
+Nokia,Merkgebonden besturingssysteem,"2,4 inch kleurenscherm",64 MB opslagcapaciteit,59.99,Nokia 3310 3G Geel,4.5,13,,"2,4 inch",64 MB
 Doro,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,239.0,Doro 8040 Zwart,4.0,1,,,
 Apple,iOS 11,"5,5 inch Retina HD scherm",256 GB opslagcapaciteit,1089.0,Apple iPhone 8 Plus 256GB Zilver,4.5,91,iOS 11,"5,5 inch",256 GB
 Apple,iOS 10,"5,5 inch Retina HD scherm",32 GB opslagcapaciteit,779.0,Apple iPhone 7 Plus 32 GB Zilver,4.5,397,iOS 10,"5,5 inch",32 GB
@@ -112,7 +112,7 @@ Wileyfox,Android 7.0 Nougat,"5,5 inch HD-scherm",16 GB opslagcapaciteit,129.0,Wi
 Doro,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,147.99,Doro Secure 580 senioren telefoon wit,4.5,76,,,
 Apple,iOS 9,"4,7 inch Retina HD scherm",32 GB opslagcapaciteit,529.0,Apple iPhone 6s 32GB Goud,4.5,1228,iOS 9,"4,7 inch",32 GB
 Huawei,Android 7.0 Nougat,5 inch HD scherm,16 GB opslagcapaciteit,179.0,Huawei Y6 Pro (2017) Zwart,4.0,6,Android 7.0,5 inch,16 GB
-Nokia,Merkgebonden besturingssysteem,"2,4 inch kleurenscherm",64 MB opslagcapaciteit,59.99,Nokia 3310 3G Rood,4.5,13,Merkgebonden besturingssysteem,"2,4 inch",64 MB
+Nokia,Merkgebonden besturingssysteem,"2,4 inch kleurenscherm",64 MB opslagcapaciteit,59.99,Nokia 3310 3G Rood,4.5,13,,"2,4 inch",64 MB
 Motorola,Android 7.1 Nougat,"5,2 inch Full HD scherm",64 GB opslagcapaciteit,379.99,Motorola Moto X4 Zilver,5.0,2,Android 7.1,"5,2 inch",64 GB
 Apple,iOS 11,"4,7 inch Retina HD scherm",256 GB opslagcapaciteit,949.0,Apple iPhone 8 256GB Zilver,4.5,70,iOS 11,"4,7 inch",256 GB
 Apple,iOS 10,"5,5 inch Retina HD scherm",128 GB opslagcapaciteit,883.24,Apple iPhone 7 Plus 128 GB Zwart,4.5,397,iOS 10,"5,5 inch",128 GB
@@ -233,7 +233,7 @@ LG,Android 7.0 Nougat,5 inch HD scherm,16 GB opslagcapaciteit,169.99,LG K8 (2017
 Lenovo,Android 6.0 Marshmallow,"6,4 inch Full HD scherm",32 GB opslagcapaciteit,449.0,Lenovo Phab2 Pro Grijs,4.0,2,Android 6.0,"6,4 inch",32 GB
 Asus,Android 6.0 Marshmallow,"5,5 inch Full HD scherm",32 GB opslagcapaciteit,249.0,Asus Zenfone 3 Max 5.5 inch Goud,4.5,42,Android 6.0,"5,5 inch",32 GB
 Wiko,Android 6.0 Marshmallow,5 inch HD scherm,16 GB opslagcapaciteit,199.0,Wiko Ufeel Blauw,4.0,25,Android 6.0,5 inch,16 GB
-Ruggear,Merkgebonden OS,"2,2 inch scherm",Uitbreidbaar geheugen,64.95,Ruggear XF,4.0,6,Merkgebonden OS,"2,2 inch",
+Ruggear,Merkgebonden OS,"2,2 inch scherm",Uitbreidbaar geheugen,64.95,Ruggear XF,4.0,6,,"2,2 inch",
 Samsung,Android 6.0 Marshmallow,"5,5 inch Quad HD scherm",32 GB opslagcapaciteit,599.0,Samsung Galaxy S7 Edge Roze,4.5,932,Android 6.0,"5,5 inch",32 GB
 CrossCall,Dual sim-telefoon,"1,7 inch-scherm","0,3 megapixel-camera",69.99,CrossCall Spider X1 Zwart,4.0,4,,"1,7 inch-scherm",
 Lenovo,Android 6.0 Marshmallow,"5,5 inch Full HD-scherm",32 GB opslagcapaciteit,399.0,Lenovo Moto Z Play Wit,4.5,33,Android 6.0,"5,5 inch",32 GB

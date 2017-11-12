@@ -13,8 +13,7 @@ PRODUCTINFO['os'] = PRODUCTINFO['highlight1'].apply(lambda x:
                                                     if x.startswith(('iOS',
                                                                      'Android',
                                                                      'Cyanogen',
-                                                                     'Windows',
-                                                                     'Merkgebonden'))
+                                                                     'Windows'))
                                                     else '')
 PRODUCTINFO['screensize'] = PRODUCTINFO['highlight2'].apply(lambda x:
                                                             x.split(' ')[0] + ' ' + x.split(' ')[1]
