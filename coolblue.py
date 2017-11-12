@@ -22,6 +22,11 @@ def npages(mysoup):
 BRAND = list()
 PRODUCT = list()
 PRICE = list()
+RATING = list()
+REVIEWS = list()
+HIGHLIGHT1 = list()
+HIGHLIGHT2 = list()
+HIGHLIGHT3 = list()
 
 for page in range(1, npages(BeautifulSoup(requests.get(URL).text,
                                           'html.parser')) + 1):
@@ -35,10 +40,33 @@ for page in range(1, npages(BeautifulSoup(requests.get(URL).text,
     for price in prices:
         PRICE.append(float(price.text.strip().strip(',-')
                            .replace('.', '').replace(',', '.')))
+    ratings = soup.find_all('meter', {'class': 'review-rating--score-meter'})
+    for rating in ratings:
+        RATING.append(str(rating).split('value="')[1].split('">')[0])
+    reviews = soup.find_all('span', {'class': 'review-rating--reviews'})
+    for review in reviews:
+        REVIEWS.append(int(review.text.strip().strip(' reviews')))
+    highlights = soup.find_all('li', {'class': 'product__highlight'})
+    highlight_counter = 1
+    for highlight in highlights:
+        if highlight_counter == 1:
+            HIGHLIGHT1.append(str(highlight).strip('</li>').split('>')[-1])
+        if highlight_counter == 2:
+            HIGHLIGHT2.append(str(highlight).strip('</li>').split('>')[-1])
+        if highlight_counter == 3:
+            HIGHLIGHT3.append(str(highlight).strip('</li>').split('>')[-1])
+        highlight_counter += 1
+        if highlight_counter > 3:
+            highlight_counter = 1
 
-PRICEINFO = pd.DataFrame({'price': PRICE,
+PRICEINFO = pd.DataFrame({'brand': BRAND,
                           'product': PRODUCT,
-                          'brand': BRAND})
+                          'price': PRICE,
+                          'rating': RATING,
+                          'reviews': REVIEWS,
+                          'highlight1': HIGHLIGHT1,
+                          'highlight2': HIGHLIGHT2,
+                          'highlight3': HIGHLIGHT3})
 PRICEINFO.to_csv('coolblue.csv', index=False)
 
 X_PIXELS, Y_PIXELS, DPI = 1500, 1000, 150
