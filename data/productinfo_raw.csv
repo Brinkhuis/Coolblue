@@ -38,8 +38,8 @@ Huawei,Android 7.1 Nougat,"5,9 inch Full HD scherm",64 GB opslagcapaciteit,349.0
 Motorola,Android 7.1 Nougat,"5,5 inch Full HD scherm",32 GB opslagcapaciteit,299.0,Motorola Moto G5S Plus Grijs,4.5,26
 Huawei,Android 6.0 Marshmallow,5 inch HD scherm,16 GB opslagcapaciteit,137.0,Huawei Y6 (2017) Grijs,4.5,25
 Motorola,Android 6.0 Marshmallow,"5,5 inch Full HD scherm",16 GB opslagcapaciteit,149.0,Motorola Moto G4 Zwart,4.5,508
-Nokia,Merkgebonden besturingssysteem,"2,4 inch kleurenscherm",64 MB opslagcapaciteit,59.99,Nokia 3310 3G Grijs,4.5,13
 Apple,iOS 11,"5,5 inch Retina HD scherm",64 GB opslagcapaciteit,899.0,Apple iPhone 8 Plus 64GB Space Grey,4.5,91
+Nokia,Merkgebonden besturingssysteem,"2,4 inch kleurenscherm",64 MB opslagcapaciteit,59.99,Nokia 3310 3G Grijs,4.5,13
 Wileyfox,Android 7.1,5.2 inch Full HD scherm,32 GB opslagcapaciteit,198.0,Wileyfox Swift 2 X Blauw,4.5,307
 Apple,iOS 11,"4,7 inch Retina HD scherm",256 GB opslagcapaciteit,949.0,Apple iPhone 8 256GB Space Grey,4.5,70
 Samsung,Android 7.0 Nougat,5 inch HD scherm,16 GB opslagcapaciteit,199.0,Samsung Galaxy J3 (2017) Zwart,4.5,17
@@ -47,18 +47,18 @@ Samsung,Android 6.0 Marshmallow,"5,1 inch Quad HD scherm",32 GB opslagcapaciteit
 Apple,iOS 10,"4,7 inch Retina HD scherm",32 GB opslagcapaciteit,599.0,Apple iPhone 7 32GB Zilver,4.5,1049
 Apple,iOS 9.3,4 inch Retina scherm,32 GB opslagcapaciteit,349.0,Apple iPhone SE 32GB Rose Gold,4.5,2030
 Motorola,Android 7.1 Nougat,"5,2 inch Full HD scherm",32 GB opslagcapaciteit,229.0,Motorola Moto G5S Grijs,4.5,14
-CAT,Android 7.0 Nougat,5 inch Full HD scherm,32 GB opslagcapaciteit,449.0,CAT S41,4.5,15
 Huawei,Android 7.0 Nougat,"5,2 inch Full HD scherm",32 GB opslagcapaciteit,299.0,Huawei P10 Lite Blauw,4.5,159
 CAT,Android 5.1 Lollipop,"4,5 inch scherm",8 GB opslagcapaciteit,164.49,CAT S30,4,115
+CAT,Android 7.0 Nougat,5 inch Full HD scherm,32 GB opslagcapaciteit,449.0,CAT S41,4.5,15
 Apple,iOS 9.3,4 inch Retina scherm,32 GB opslagcapaciteit,349.0,Apple iPhone SE 32GB Goud,4.5,2030
 Samsung,Android 5.1 Lollipop,5 inch HD scherm,8 GB opslagcapaciteit,139.0,Samsung Galaxy J3 (2016) Goud,4.5,491
 Samsung,Android 5.1 Lollipop,5 inch HD scherm,8 GB opslagcapaciteit,139.0,Samsung Galaxy J3 (2016) Wit,4.5,491
-Apple,iOS 11,"5,5 inch Retina HD scherm",64 GB opslagcapaciteit,899.0,Apple iPhone 8 Plus 64GB Goud,4.5,91
 Motorola,Android 7.0 Nougat,5 inch HD scherm,16 GB opslagcapaciteit,119.0,Motorola Moto C Plus Zwart,4.5,19
+Apple,iOS 11,"5,5 inch Retina HD scherm",64 GB opslagcapaciteit,899.0,Apple iPhone 8 Plus 64GB Goud,4.5,91
 Samsung,Android 7.0 Nougat,"5,5 inch Full HD scherm",16 GB opslagcapaciteit,299.0,Samsung Galaxy J7 (2017) Dual Sim Zwart,4.5,29
-Apple,iOS 9,"4,7 inch Retina HD scherm",128 GB opslagcapaciteit,639.0,Apple iPhone 6s 128GB Space Gray,4.5,1228
-Apple,iOS 10,"4,7 inch Retina HD scherm",32 GB opslagcapaciteit,599.0,Apple iPhone 7 32GB Rose Gold,4.5,1049
 Samsung,Android 6.0 Marshmallow,"4,7 inch HD scherm",16 GB opslagcapaciteit,269.0,Samsung Galaxy A3 (2017) Goud,4.5,348
+Apple,iOS 10,"4,7 inch Retina HD scherm",32 GB opslagcapaciteit,599.0,Apple iPhone 7 32GB Rose Gold,4.5,1049
+Apple,iOS 9,"4,7 inch Retina HD scherm",128 GB opslagcapaciteit,639.0,Apple iPhone 6s 128GB Space Gray,4.5,1228
 Apple,iOS 11,"5,5 inch Retina HD scherm",256 GB opslagcapaciteit,1089.0,Apple iPhone 8 Plus 256GB Space Grey,4.5,91
 Apple,iOS 9,"4,7 inch Retina HD scherm",32 GB opslagcapaciteit,529.0,Apple iPhone 6s 32GB Zilver,4.5,1228
 Samsung,Android 6.0 Marshmallow,"5,1 inch Quad HD scherm",32 GB opslagcapaciteit,479.0,Samsung Galaxy S7 Wit,4.5,856
@@ -69,32 +69,31 @@ Samsung,Android 7.1 Nougat,"5,2 inch HD scherm",16 GB opslagcapaciteit,249.0,Sam
 Nokia,Android 7.1 Nougat,"5,2 inch HD scherm",16 GB opslagcapaciteit,199.0,Nokia 5 Zwart,4.5,51
 Motorola,Android 7.1 Nougat,"5,2 inch Full HD scherm",64 GB opslagcapaciteit,379.99,Motorola Moto X4 Zwart,5,2
 Motorola,Android 7.0 Nougat,"5,0 inch Full HD scherm",16 GB opslagcapaciteit,179.0,Motorola Moto G5 Goud,4.5,439
-Sony,Android 8.0 Oreo,"4,6 inch HD scherm",32 GB opslagcapaciteit,599.0,Sony Xperia XZ1 Compact Zwart,4.5,24
 Apple,iOS 9.3,4 inch Retina scherm,128 GB opslagcapaciteit,469.0,Apple iPhone SE 128GB Zilver,4.5,2030
 Samsung,Android 7.0 Nougat,"6,2 inch Quad HD scherm",64 GB opslagcapaciteit,799.0,Samsung Galaxy S8 Plus Zwart,5,282
-Apple,iOS 11,"5,5 inch Retina HD scherm",64 GB opslagcapaciteit,899.0,Apple iPhone 8 Plus 64GB Zilver,4.5,91
-Motorola,Android 7.1 Nougat,"5,5 inch HD scherm",16 GB opslagcapaciteit,179.0,Motorola Moto E4 Plus Grijs,4.5,22
-Apple,iOS 9.3,4 inch Retina scherm,128 GB opslagcapaciteit,449.0,Apple iPhone SE 128GB Goud,4.5,2030
-Samsung,Android 6.0 Marshmallow,"5,1 inch Quad HD scherm",32 GB opslagcapaciteit,479.0,Samsung Galaxy S7 Roze,4.5,51
-Samsung,Android 6.0 Marshmallow,"5,1 inch Quad HD scherm",32 GB opslagcapaciteit,479.0,Samsung Galaxy S7 Goud,4.5,856
 Nokia,Merkgebonden besturingssysteem,"2,4 inch kleurenscherm",64 MB opslagcapaciteit,59.99,Nokia 3310 3G Blauw,4.5,13
+Samsung,Android 7.0 Nougat,"6,2 inch Quad HD scherm",64 GB opslagcapaciteit,799.0,Samsung Galaxy S8 Plus Zwart,5,282
+Apple,iOS 11,"5,5 inch Retina HD scherm",64 GB opslagcapaciteit,899.0,Apple iPhone 8 Plus 64GB Zilver,4.5,91
+Samsung,Android 6.0 Marshmallow,"5,1 inch Quad HD scherm",32 GB opslagcapaciteit,479.0,Samsung Galaxy S7 Goud,4.5,856
+Apple,iOS 9.3,4 inch Retina scherm,128 GB opslagcapaciteit,449.0,Apple iPhone SE 128GB Goud,4.5,2030
+Motorola,Android 7.1 Nougat,"5,5 inch HD scherm",16 GB opslagcapaciteit,179.0,Motorola Moto E4 Plus Grijs,4.5,22
 Apple,iOS 10,"4,7 inch Retina HD scherm",32 GB opslagcapaciteit,599.0,Apple iPhone 7 32GB Goud,4.5,1049
 Huawei,Android 7.0 Nougat,"5,2 inch Full HD scherm",32 GB opslagcapaciteit,299.0,Huawei P10 Lite Goud,4.5,159
-Huawei,Android 6.0 Marshmallow,5 inch HD scherm,16 GB opslagcapaciteit,137.0,Huawei Y6 (2017) Goud,4.5,25
-Samsung,Android 7.0 Nougat,5 inch HD scherm,16 GB opslagcapaciteit,199.0,Samsung Galaxy J3 (2017) Goud,4.5,17
-Nokia,"2,4 inch-scherm",16 MB opslagcapaciteit,FM radio,49.95,Nokia 216 Zwart,4,18
 Apple,iOS 9,"4,7 inch Retina HD scherm",32 GB opslagcapaciteit,529.0,Apple iPhone 6s 32GB Rose Gold,4.5,1228
 Sony,Android 7.0 Nougat,6 inch Full HD scherm,32 GB opslagcapaciteit,379.0,Sony Xperia XA1 Ultra Zwart,4.5,36
 Nokia,Android 7.0 Nougat,5 inch HD scherm,16 GB opslagcapaciteit,149.0,Nokia 3 Zwart,4,34
+Nokia,"2,4 inch-scherm",16 MB opslagcapaciteit,FM radio,49.95,Nokia 216 Zwart,4,18
+Huawei,Android 6.0 Marshmallow,5 inch HD scherm,16 GB opslagcapaciteit,137.0,Huawei Y6 (2017) Goud,4.5,25
+Samsung,Android 7.0 Nougat,5 inch HD scherm,16 GB opslagcapaciteit,199.0,Samsung Galaxy J3 (2017) Goud,4.5,17
 Wileyfox,Android 7.1,5.2 inch Full HD scherm,32 GB opslagcapaciteit,196.0,Wileyfox Swift 2 X Goud,4.5,307
 Apple,iOS 10,"4,7 inch Retina HD scherm",128 GB opslagcapaciteit,749.0,Apple iPhone 7 128GB Rood,4.5,1049
-Huawei,Android 7.0 Nougat,"5,1 inch Full HD scherm",64 GB opslagcapaciteit,549.0,Huawei P10 Zwart,4.5,70
-Apple,iOS 10,"5,5 inch Retina HD scherm",32 GB opslagcapaciteit,779.0,Apple iPhone 7 Plus 32 GB Zwart,4.5,93
-Doro,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,189.0,Doro 8031 Zwart,4.5,30
 Emporia,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,57.99,Emporia Pure senioren telefoon,4.5,90
 Emporia,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,57.0,Emporia Flip Basic senioren telefoon zwart,4.5,145
 Emporia,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,49.0,Emporia Flip Basic Goud,4.5,145
-Honor,Android 7.0 Nougat,"5,2 inch Full HD scherm",64 GB opslagcapaciteit,429.0,Honor 9 Zwart,4.5,34
+Apple,iOS 10,"5,5 inch Retina HD scherm",32 GB opslagcapaciteit,779.0,Apple iPhone 7 Plus 32 GB Zwart,4.5,93
+Doro,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,189.0,Doro 8031 Zwart,4.5,30
+Huawei,Android 7.0 Nougat,"5,1 inch Full HD scherm",64 GB opslagcapaciteit,549.0,Huawei P10 Zwart,4.5,70
+Nokia,Merkgebonden besturingssysteem,"2,4 inch kleurenscherm",64 MB opslagcapaciteit,59.99,Nokia 3310 3G Geel,4.5,13
 Doro,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,239.0,Doro 8040 Zwart,4,1
 Apple,iOS 11,"5,5 inch Retina HD scherm",256 GB opslagcapaciteit,1089.0,Apple iPhone 8 Plus 256GB Zilver,4.5,91
 Apple,iOS 10,"5,5 inch Retina HD scherm",32 GB opslagcapaciteit,779.0,Apple iPhone 7 Plus 32 GB Zilver,4.5,397
@@ -143,30 +142,30 @@ Honor,Android 7.0 Nougat,"5,2 inch Full HD scherm",64 GB opslagcapaciteit,429.0,
 Nokia,Android 7.1 Nougat,"5,3 inch Quad HD scherm",64 GB opslagcapaciteit,599.0,Nokia 8 Grijs,4.5,28
 Fysic,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,49.99,Fysic FM-7800,4,13
 Apple,iOS 9,"4,7 inch Retina HD scherm",128 GB opslagcapaciteit,639.0,Apple iPhone 6s 128GB Goud,4.5,1228
+Nokia,Android 7.0 Nougat,5 inch HD scherm,16 GB opslagcapaciteit,149.0,Nokia 3 Koper,4,34
+LG,Android 7.1 Nougat,"5,5 inch Full HD scherm",32 GB opslagcapaciteit,299.0,LG Q6 Zwart,4.5,3
 Samsung,Android 7.1 Nougat,"6,3 inch Quad HD scherm",64 GB opslagcapaciteit,949.0,Samsung Galaxy Note 8 Goud,4.5,62
-Fysic,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,49.99,Fysic FM-7800,4,13
-Apple,iOS 9,"4,7 inch Retina HD scherm",128 GB opslagcapaciteit,639.0,Apple iPhone 6s 128GB Goud,4.5,1228
 Samsung,Android 7.0 Nougat,"6,2 inch Quad HD scherm",64 GB opslagcapaciteit,799.0,Samsung Galaxy S8 Plus Blauw,5,282
-Sony,Android 8.0 Oreo,"4,6 inch HD scherm",32 GB opslagcapaciteit,599.0,Sony Xperia XZ1 Compact Blauw,4.5,24
-Asus,Android 7.0 Nougat,"5,2 inch HD scherm",16 GB opslagcapaciteit,199.0,Asus Zenfone 4 Max 5.2 inch Zwart,0,0
-Huawei,Android 7.0 Nougat,"5,5 inch Quad HD scherm",128 GB opslagcapaciteit,699.0,Huawei P10 Plus Zwart,4.5,16
+Apple,iOS 9,"4,7 inch Retina HD scherm",128 GB opslagcapaciteit,639.0,Apple iPhone 6s 128GB Rose Gold,4.5,1228
+Apple,iOS 9,"5,5 inch Retina HD scherm",128 GB opslagcapaciteit,749.0,Apple iPhone 6s Plus 128GB Space Gray,4.5,293
 Doro,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,189.0,Doro 8031 Goud,4.5,30
+Huawei,Android 7.0 Nougat,"5,5 inch Quad HD scherm",128 GB opslagcapaciteit,699.0,Huawei P10 Plus Zwart,4.5,16
 HTC,Android 7.1 Nougat,"5,5 inch Quad HD scherm",64 GB opslagcapaciteit,699.0,HTC U11 Zilver,4.5,27
 Emporia,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,89.0,Emporia Comfort senioren telefoon,4.5,6
-Sony,Android 8.0 Oreo,"5,2 inch Full HD scherm",64 GB opslagcapaciteit,699.0,Sony Xperia XZ1 Zwart,4.5,11
-Sony,Android 8.0 Oreo,"4,6 inch HD scherm",32 GB opslagcapaciteit,599.0,Sony Xperia XZ1 Compact Zilver,4.5,24
-Asus,Android 7.0 Nougat,"5,5 inch HD scherm",32 GB opslagcapaciteit,249.0,Asus Zenfone 4 Max 5.5 inch Goud,4.5,3
 Nokia,Android 7.1 Nougat,"5,2 inch HD scherm",16 GB opslagcapaciteit,199.0,Nokia 5 Koper,4.5,51
 Fysic,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,89.99,Fysic FM-9710 Rood,0,0
 Profoon,2 inch scherm,Dual sim-telefoon,Stofdicht en waterdicht,39.99,Profoon OUTDOOR,0,0
 Huawei,Android 7.0 Nougat,5 inch HD scherm,16 GB opslagcapaciteit,179.0,Huawei Y6 Pro (2017) Goud,4,6
-Motorola,Android 7.1 Nougat,"5,5 inch HD scherm",16 GB opslagcapaciteit,179.0,Motorola Moto E4 Plus Goud,4.5,22
-Honor,Android 7.0 Nougat,"5,2 inch Full HD scherm",64 GB opslagcapaciteit,429.0,Honor 9 Zilver,4.5,34
-Apple,iOS 10,"5,5 inch Retina HD scherm",128 GB opslagcapaciteit,889.0,Apple iPhone 7 Plus 128GB Rood,4.5,397
-Sony,Android 7.0 Nougat,"5,5 inch HD scherm",16 GB opslagcapaciteit,199.0,Sony Xperia L1 Wit,4.5,17
+Sony,Android 8.0 Oreo,"4,6 inch HD scherm",32 GB opslagcapaciteit,599.0,Sony Xperia XZ1 Compact Blauw,4.5,24
+Asus,Android 7.0 Nougat,"5,2 inch HD scherm",16 GB opslagcapaciteit,199.0,Asus Zenfone 4 Max 5.2 inch Zwart,0,0
+Sony,Android 8.0 Oreo,"5,2 inch Full HD scherm",64 GB opslagcapaciteit,699.0,Sony Xperia XZ1 Zwart,4.5,11
+Sony,Android 8.0 Oreo,"4,6 inch HD scherm",32 GB opslagcapaciteit,599.0,Sony Xperia XZ1 Compact Zilver,4.5,24
+Asus,Android 7.0 Nougat,"5,5 inch HD scherm",32 GB opslagcapaciteit,249.0,Asus Zenfone 4 Max 5.5 inch Goud,4.5,3
+Doro,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,189.0,Doro 8031 Wit,4.5,30
 Doro,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,85.0,Doro Primo 413 Zwart,4.5,45
 Asus,Android 6.0 Marshmallow,"5,2 inch HD scherm",32 GB opslagcapaciteit,199.0,Asus Zenfone 3 Max 5.2 inch Grijs,4.5,44
-Apple,iOS 9,"4,7 inch Retina HD scherm",128 GB opslagcapaciteit,639.0,Apple iPhone 6s 128GB Rose Gold,4.5,1228
+Apple,iOS 10,"5,5 inch Retina HD scherm",128 GB opslagcapaciteit,889.0,Apple iPhone 7 Plus 128GB Rood,4.5,397
+Sony,Android 7.0 Nougat,"5,5 inch HD scherm",16 GB opslagcapaciteit,199.0,Sony Xperia L1 Wit,4.5,17
 Motorola,Android 7.1 Nougat,"5,5 inch HD scherm",16 GB opslagcapaciteit,179.0,Motorola Moto E4 Plus Goud,4.5,22
 Honor,Android 7.0 Nougat,"5,2 inch Full HD scherm",64 GB opslagcapaciteit,429.0,Honor 9 Zilver,4.5,34
 RugGear,2 inch scherm,Stof- en waterdicht,Stand-by: 25 dagen,119.0,RugGear RG100 Zwart,4,55
@@ -192,11 +191,6 @@ Alcatel,Android 6.0 Marshmallow,5 inch HD scherm,16 GB opslagcapaciteit,149.0,Al
 Alcatel,Android 6.0 Marshmallow,5 inch HD scherm,16 GB opslagcapaciteit,179.0,Alcatel Shine Lite Wit,4,8
 Samsung,Android 6.0 Marshmallow,"5,5 inch Quad HD scherm",32 GB opslagcapaciteit,599.0,Samsung Galaxy S7 Edge Blauw,4.5,932
 Apple,iOS 9,"5,5 inch Retina HD scherm",32 GB opslagcapaciteit,639.0,Apple iPhone 6s Plus 32GB Goud,4.5,293
-Apple,iOS 9,"5,5 inch Retina HD scherm",128 GB opslagcapaciteit,749.0,Apple iPhone 6s Plus 128GB Goud,4.5,293
-Apple,iOS 9,"5,5 inch Retina HD scherm",128 GB opslagcapaciteit,749.0,Apple iPhone 6s Plus 128GB Zilver,4.5,293
-Apple,iOS 9,"5,5 inch Retina HD scherm",128 GB opslagcapaciteit,749.0,Apple iPhone 6s Plus 128GB Rose Gold,4.5,293
-Asus,Android 7.0 Nougat,"5,5 inch Full HD scherm",64 GB opslagcapaciteit,469.0,Asus Zenfone Zoom S,4.5,5
-Honor,Android 7.0 Nougat,"5,7 inch Quad HD scherm",64 GB opslagcapaciteit,549.0,Honor 8 Pro Blauw,4.5,13
 Honor,Android 7.0 Nougat,"5,7 inch Quad HD scherm",64 GB opslagcapaciteit,549.0,Honor 8 Pro Goud,4.5,13
 Emporia,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,69.99,Emporia Classic senioren telefoon,4.5,1
 Motorola,Android 7.1 Nougat,"5,5 inch Full HD scherm",64 GB opslagcapaciteit,449.99,Motorola Moto Z2 Play Goud,4.5,16
@@ -221,6 +215,18 @@ Sony,Android 7.0 Nougat,"5,2 inch Full HD scherm",32 GB opslagcapaciteit,649.0,S
 Sony,Android 7.0 Nougat,"5,5 inch 4K scherm",64 GB opslagcapaciteit,738.0,Sony Xperia XZ Premium Zwart,5,37
 Refurbished,Geen tot zeer lichte gebruikssporen,Inclusief originele Apple-accessoires,2 jaar garantie,499.0,Refurbished Apple iPhone 6s 16GB Goud (2 jaar garantie),0,0
 Refurbished,Geen tot zeer lichte gebruikssporen,Inclusief originele Apple-accessoires,2 jaar garantie,649.0,Refurbished Apple iPhone 6s Plus 64GB Goud (2 jaar garantie),0,0
+Apple,iOS 10,"5,5 inch Retina HD scherm",32 GB opslagcapaciteit,779.0,Apple iPhone 7 Plus 32 GB Rose Gold,4.5,397
+CrossCall,"2,4 inch-scherm",Dual sim-telefoon,2 megapixel-camera,99.0,CrossCall Spider X4 Zwart,4,2
+Huawei,Android 7.0 Nougat,"5,5 inch Quad HD scherm",128 GB opslagcapaciteit,699.0,Huawei P10 Plus Zilver,4.5,16
+Energizer,"2,4 inch scherm",Dual sim,Robuuste behuizing,59.99,Energizer Energy 100,0,0
+Getnord,Android 6.0 Marshmallow,"4,7 inch HD scherm",16 GB opslagcapaciteit,399.0,Getnord Onyx,4,5
+Huawei,Android 7.0 Nougat,"5,5 inch Quad HD scherm",128 GB opslagcapaciteit,699.0,Huawei P10 Plus Goud,4.5,16
+Getnord,"2,2 inch scherm",Robuuste behuizing,Stof- en waterdicht,99.0,Getnord Walrus,4,5
+Huawei,Android 7.0 Nougat,"5,1 inch Full HD scherm",64 GB opslagcapaciteit,549.0,Huawei P10 Zilver,4.5,70
+Sony,Android 7.0 Nougat,"5,2 inch Full HD scherm",32 GB opslagcapaciteit,649.0,Sony Xperia XZs Blauw,4.5,13
+Sony,Android 7.0 Nougat,"5,5 inch 4K scherm",64 GB opslagcapaciteit,738.0,Sony Xperia XZ Premium Zwart,5,37
+Refurbished,Geen tot zeer lichte gebruikssporen,Inclusief originele Apple-accessoires,2 jaar garantie,499.0,Refurbished Apple iPhone 6s 16GB Goud (2 jaar garantie),0,0
+Refurbished,Geen tot zeer lichte gebruikssporen,Inclusief originele Apple-accessoires,2 jaar garantie,649.0,Refurbished Apple iPhone 6s Plus 64GB Goud (2 jaar garantie),0,0
 Alcatel,Android 6.0 Marshmallow,"5,2 inch HD scherm",16 GB opslagcapaciteit,199.0,Alcatel A5 LED,3.5,1
 Alcatel,Android 6.0 Marshmallow,5 inch HD scherm,16 GB opslagcapaciteit,149.0,Alcatel A3 Zwart,4.5,2
 LG,Android 7.0 Nougat,5 inch HD scherm,16 GB opslagcapaciteit,169.99,LG K8 (2017) Grijs,4,2
@@ -233,36 +239,29 @@ CrossCall,Dual sim-telefoon,"1,7 inch-scherm","0,3 megapixel-camera",69.99,Cross
 Lenovo,Android 6.0 Marshmallow,"5,5 inch Full HD-scherm",32 GB opslagcapaciteit,399.0,Lenovo Moto Z Play Wit,4.5,33
 Lenovo,Android 6.0 Marshmallow,"5,5 inch Full HD-scherm",32 GB opslagcapaciteit,429.0,Lenovo Moto Z Play Zwart,4.5,33
 CrossCall,"2,2 inch scherm",Robuuste behuizing,64 MB opslagcapaciteit,99.0,CrossCall Shark V2 Rood,4,10
-CrossCall,Android 6.0 Marshmallow,5 inch Full HD scherm,32 GB opslagcapaciteit,549.0,CrossCall Trekker X3 Zwart/Rood,0,0
-Crosscall,Android 6.0 Marshmallow,"4,5 inch HD scherm",16 GB opslagcapaciteit,289.0,Crosscall Trekker M1 Core Zwart/Rood,4,2
-LG,Android 7.0 Nougat,"5,3 inch HD scherm",16 GB opslagcapaciteit,199.0,LG K10 (2017) Zwart,0,0
-HTC,Android 7.1 Nougat,"5,5 inch Quad HD scherm",64 GB opslagcapaciteit,699.0,HTC U11 Zwart,4.5,27
-HTC,Android 7.1 Nougat,"5,5 inch Quad HD scherm",64 GB opslagcapaciteit,649.0,HTC U11 Blauw,4.5,27
-Honor,Android 7.0 Nougat,"5,7 inch Quad HD scherm",64 GB opslagcapaciteit,549.0,Honor 8 Pro Zwart,4.5,13
-CrossCall,"2,2 inch scherm",Robuuste behuizing,64 MB opslagcapaciteit,99.0,CrossCall Shark V2 Rood,4,10
+Samsung,Android 6.0 Marshmallow,"5,5 inch Quad HD scherm",32 GB opslagcapaciteit,579.0,Samsung Galaxy S7 Edge Wit,4.5,932
+Samsung,Android 6.0 Marshmallow,"5,5 inch Quad HD scherm",32 GB opslagcapaciteit,599.0,Samsung Galaxy S7 Edge Zilver,4.5,932
+Doro,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,78.99,Doro 6030 Zwart,4.5,38
+Doro,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,79.0,Doro 6030 Wit,4.5,38
+Sony,Android 7.0 Nougat,5 inch HD scherm,32 GB opslagcapaciteit,279.0,Sony Xperia XA1 Goud,4.5,91
+Nokia,Android 7.0 Nougat,5 inch HD scherm,16 GB opslagcapaciteit,149.0,Nokia 3 Wit,4,34
+Nokia,Android 7.0 Nougat,5 inch HD scherm,16 GB opslagcapaciteit,149.0,Nokia 3 Blauw,4,34
+Fysic,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,79.99,Fysic FM-7950 GPS,0,0
+Huawei,Android 7.0 Nougat,5 inch HD scherm,16 GB opslagcapaciteit,179.0,Huawei Y6 Pro (2017) Zilver,4,6
+Apple,iOS 10,"5,5 inch Retina HD scherm",256 GB opslagcapaciteit,949.0,Apple iPhone 7 Plus 256 GB Zwart,4.5,397
+HTC,Android 6.0 Marshmallow,5 inch HD-scherm,32 GB opslagcapaciteit,229.0,HTC One A9s Zwart,4.5,16
 Huawei,Android 7.0 Nougat,"5,1 inch Full HD scherm",64 GB opslagcapaciteit,549.0,Huawei P10 Groen,4.5,70
 HTC,Android 7.1 Nougat,"5,5 inch Quad HD scherm",64 GB opslagcapaciteit,699.0,HTC U11 Wit,4.5,27
 HTC,Android 6.0 Marshmallow,5 inch HD-scherm,16 GB opslagcapaciteit,169.0,HTC Desire 650 Wit/Geel,4.5,26
 Apple,iOS 9,"5,5 inch Retina HD scherm",32 GB opslagcapaciteit,639.0,Apple iPhone 6s Plus 32GB Zilver,4.5,293
 Apple,iOS 9,"5,5 inch Retina HD scherm",32 GB opslagcapaciteit,639.0,Apple iPhone 6s Plus 32GB Rose Gold,4.5,293
-HTC,Android 7.1 Nougat,"5,5 inch Quad HD scherm",64 GB opslagcapaciteit,699.0,HTC U11 Zwart,4.5,27
-HTC,Android 7.1 Nougat,"5,5 inch Quad HD scherm",64 GB opslagcapaciteit,649.0,HTC U11 Blauw,4.5,27
-Honor,Android 7.0 Nougat,"5,7 inch Quad HD scherm",64 GB opslagcapaciteit,549.0,Honor 8 Pro Zwart,4.5,13
-Emporia,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,89.0,Emporia Select Basic Seniorentelefoon,4.5,2
-Samsung,Android 6.0 Marshmallow,"5,5 inch Quad HD scherm",32 GB opslagcapaciteit,579.0,Samsung Galaxy S7 Edge Wit,4.5,932
-Samsung,Android 6.0 Marshmallow,"5,5 inch Quad HD scherm",32 GB opslagcapaciteit,599.0,Samsung Galaxy S7 Edge Zilver,4.5,932
-Doro,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,78.99,Doro 6030 Zwart,4.5,38
-Doro,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,79.0,Doro 6030 Wit,4.5,38
+Huawei,Android 7.0 Nougat,"5,5 inch HD scherm",16 GB opslagcapaciteit,199.0,Huawei Y7 (2017) Zilver,4.5,5
+Huawei,Android 7.0 Nougat,"5,5 inch HD scherm",16 GB opslagcapaciteit,199.0,Huawei Y7 (2017) Goud,4.5,5
+Apple,iOS 10,"5,5 inch Retina HD scherm",128 GB opslagcapaciteit,779.0,Apple iPhone 7 Plus 32 GB Jet Black,4.5,397
+Asus,Android 7.0 Nougat,"5,5 inch Full HD scherm",64 GB opslagcapaciteit,499.0,Asus Zenfone 4 Zwart,5,3
+Wiko,Android 7.0 Nougat,"5,2 inch HD scherm",32 GB opslagcapaciteit,149.99,Wiko U Pulse Lite Zwart,5,1
 Sony,Android 8.0 Oreo,"4,6 inch HD scherm",32 GB opslagcapaciteit,599.0,Sony Xperia XZ1 Compact Roze,4.5,24
 Sony,Android 7.1 Nougat,"5,5 inch Full HD scherm",32 GB opslagcapaciteit,349.0,Sony Xperia XA1 Plus Blauw,4,2
-Sony,Android 7.1 Nougat,"5,5 inch Full HD scherm",32 GB opslagcapaciteit,349.0,Sony Xperia XA1 Plus Goud,4,2
-Asus,Android 7.0 Nougat,"5,2 inch HD scherm",16 GB opslagcapaciteit,199.0,Asus Zenfone 4 Max 5.2 inch Goud,5,1
-Asus,Android 7.1 Nougat,"5,5 inch HD scherm",64 GB opslagcapaciteit,299.0,Asus Zenfone 4 Selfie Zwart,0,0
-Asus,Android 7.0 Nougat,"5,5 inch Full HD scherm",64 GB opslagcapaciteit,499.0,Asus Zenfone 4 Wit,5,3
-Wiko,Android 7.1 Nougat,"5,7 inch HD scherm",32 GB opslagcapaciteit,199.99,Wiko View Goud,4.5,1
-Wiko,Android 7.1 Nougat,"5,5 inch Full HD scherm",64 GB opslagcapaciteit,399.99,Wiko Wim Zwart,5,1
-Sony,Android 7.0 Nougat,5 inch HD scherm,32 GB opslagcapaciteit,279.0,Sony Xperia XA1 Goud,4.5,91
-Nokia,Android 7.0 Nougat,5 inch HD scherm,16 GB opslagcapaciteit,149.0,Nokia 3 Wit,4,34
 Sony,Android 7.1 Nougat,"5,5 inch Full HD scherm",32 GB opslagcapaciteit,349.0,Sony Xperia XA1 Plus Goud,4,2
 Asus,Android 7.0 Nougat,"5,2 inch HD scherm",16 GB opslagcapaciteit,199.0,Asus Zenfone 4 Max 5.2 inch Goud,5,1
 Asus,Android 7.1 Nougat,"5,5 inch HD scherm",64 GB opslagcapaciteit,299.0,Asus Zenfone 4 Selfie Zwart,0,0
@@ -303,8 +302,9 @@ Apple,iOS 11,"5,8 inch Retina HD scherm",64 GB opslagcapaciteit,1159.0,Apple iPh
 Apple,iOS 11,"5,8 inch Retina HD scherm",256 GB opslagcapaciteit,1329.0,Apple iPhone X 256GB Zilver,5,8
 Nokia,Android 7.1 Nougat,"5,5 inch Full HD scherm",32 GB opslagcapaciteit,249.0,Nokia 6 Zwart,4.5,28
 Apple,iOS 11,"5,8 inch Retina HD scherm",64 GB opslagcapaciteit,1159.0,Apple iPhone X 64GB Zilver,5,8
-Emporia,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,49.0,Emporia Euphoria senioren telefoon,4.5,33
+Sony,Android 8.0 Oreo,"4,6 inch HD scherm",32 GB opslagcapaciteit,599.0,Sony Xperia XZ1 Compact Zwart,4.5,24
 Nokia,"2,4 inch scherm",16 MB opslagcapaciteit,FM radio,39.99,Nokia 150 Wit,4.5,20
+Emporia,Extra grote toetsen,Geschikt voor hoortoeste,Noodknop,49.0,Emporia Euphoria senioren telefoon,4.5,33
 Huawei,Android 6.0 Marshmallow,5 inch HD scherm,16 GB opslagcapaciteit,137.0,Huawei Y6 Roze (2017),4.5,25
 Apple,iOS 11,"5,5 inch Retina HD scherm",256 GB opslagcapaciteit,1089.0,Apple iPhone 8 Plus 256GB Goud,4.5,91
 Nokia,Android 7.1 Nougat,"5,5 inch Full HD scherm",32 GB opslagcapaciteit,249.0,Nokia 6 Zilver,4.5,28
@@ -335,6 +335,10 @@ Nokia,Series 30+,"2,4 inch kleurenscherm",16 MB opslagcapaciteit,69.0,Nokia 3310
 Alcatel,Android 6.0 Marshmallow,5 inch qHD scherm,8 GB opslagcapaciteit,99.0,Alcatel U5 Zwart,5,2
 Apple,iOS 10,"5,5 inch Retina HD scherm",128 GB opslagcapaciteit,889.0,Apple iPhone 7 Plus 128 GB Goud,4.5,397
 Wiko,Android 7.1 Nougat,"5,0 inch Full HD scherm",32 GB opslagcapaciteit,199.99,Wiko Wim Lite Goud,5,1
+Apple,iOS 10,"5,5 inch Retina HD scherm",128 GB opslagcapaciteit,889.0,Apple iPhone 7 Plus 128 GB Rose Gold,4.5,397
+Apple,iOS 10,"4,7 inch Retina HD scherm",256 GB opslagcapaciteit,849.0,Apple iPhone 7 256GB Zilver,4.5,1049
+Apple,iOS 10,"4,7 inch Retina HD-scherm",128 GB opslagcapaciteit,749.0,Apple iPhone 7 128GB Rose Gold,4.5,1049
+Apple,iOS 10,"4,7 inch Retina HD scherm",128 GB opslagcapaciteit,749.0,Apple iPhone 7 128GB Zwart,4.5,1049
 Samsung,Android 5.1 Lollipop,"5,2 inch Full HD scherm",16 GB opslagcapaciteit,299.0,Samsung Galaxy A5 Zwart (2016),4.5,461
 Samsung,Android 6.0 Marshmallow,"5,5 inch HD-scherm",16 GB opslagcapaciteit,259.0,Samsung Galaxy J7 (2016) Wit,4.5,165
 Sony,Android 5.0 Lollipop,5 inch HD-scherm,8 GB opslagcapaciteit,151.0,Sony Xperia M4 Aqua Zwart,4,73
@@ -379,10 +383,7 @@ Nokia,"2,8 inch scherm",MP3-speler,Radio,67.0,Nokia 230 Zwart,4.5,27
 General,Android 7.0 Nougat,5 inch HD-scherm,16 GB opslagcapaciteit,135.0,General Mobile Android One 4G Zwart,4.5,83
 Samsung,Android 6.0 Marsmallow,5.2 inch HD scherm,16 GB opslagcapaciteit,199.0,Samsung Galaxy J5 (2016) Dual Sim Wit,4.5,1189
 Lenovo,Android 6.0 Marshmallow,5 inch HD-scherm,16 GB opslagcapaciteit,149.0,Lenovo C2 Power Zwart,4.5,33
-Motorola,Android 6.0 Marshmallow,5 inch HD scherm,16 GB opslagcapaciteit,139.0,Motorola Moto G4 Play Zwart,4.5,250
-Forza,iOS 9,"4,7 inch Retina HD-scherm",64 GB opslagcapaciteit,449.0,Forza iPhone 6 64 GB Space Gray (Refurbished),5,6
-Apple,iOS 10,"5,5 inch Retina HD scherm",128 GB opslagcapaciteit,889.0,Apple iPhone 7 Plus 128 GB Zilver,4.5,397
-Nokia,"1,8 inch-scherm",4 GB opslagcapaciteit,FM-radio,34.99,Nokia 130 Zwart,4,73
+Lenovo,Android 6.0 Marshmallow,5 inch HD-scherm,16 GB opslagcapaciteit,149.0,Lenovo C2 Power Zwart,4.5,33
 Motorola,Android 6.0 Marshmallow,5 inch HD scherm,16 GB opslagcapaciteit,139.0,Motorola Moto G4 Play Zwart,4.5,250
 Forza,iOS 9,"4,7 inch Retina HD-scherm",64 GB opslagcapaciteit,449.0,Forza iPhone 6 64 GB Space Gray (Refurbished),5,6
 Apple,iOS 10,"5,5 inch Retina HD scherm",128 GB opslagcapaciteit,889.0,Apple iPhone 7 Plus 128 GB Zilver,4.5,397
@@ -407,7 +408,6 @@ Huawei,Android 5.1 Lollipop,5 inch HD-scherm,8 GB opslagcapaciteit,119.0,Huawei 
 Sony,Android 5.1 Lollipop,"5,2 inch Full HD-scherm",32 GB opslagcapaciteit,422.0,Sony Xperia Z5 Zwart,4.5,68
 Sony,Android 5.1 Lollipop,"5,2 inch Full HD-scherm",32 GB opslagcapaciteit,295.0,Sony Xperia Z5 Wit,4.5,68
 HTC,Android 6.0 Marshmallow,"5,2 inch Quad HD-scherm",32 GB opslagcapaciteit,427.0,HTC 10 Goud,4.5,133
-HTC,Android 6.0 Marshmallow,"5,2 inch Quad HD-scherm",32 GB opslagcapaciteit,427.0,HTC 10 Goud,4.5,133
 HTC,Android 6.0 Marshmallow,"5,2 inch Quad HD-scherm",32 GB opslagcapaciteit,401.0,HTC 10 Grijs,4.5,133
 HTC,Android 6.0 Marshmallow,"5,2 inch Quad HD-scherm",32 GB opslagcapaciteit,455.0,HTC 10 Zilver,4.5,133
 Nokia,Android 7.1 Nougat,"5,3 inch Quad HD scherm",64 GB opslagcapaciteit,599.99,Nokia 8 Koper,4.5,28
@@ -431,11 +431,11 @@ CAT,Android 5.1 Lollipop,"4,7 inch scherm",16 GB opslagcapaciteit,339.0,CAT S40,
 LG,Android 7.1 Nougat,"5,5 inch Full HD scherm",32 GB opslagcapaciteit,299.0,LG Q6 Blauw,4.5,3
 Wiko,Android 7.1 Nougat,"5,7 inch HD scherm",32 GB opslagcapaciteit,199.99,Wiko View Zwart,4.5,1
 Apple,iOS 10,"4,7 inch Retina HD scherm",256 GB opslagcapaciteit,849.0,Apple iPhone 7 256GB Jet Black,4.5,1049
-General,Android 7.0 Nougat,5 inch HD scherm,16 GB opslagcapaciteit,169.0,General Mobile Android One GM5 Wit/Goud,4.5,26
-CAT,Android 5.1 Lollipop,"4,7 inch scherm",16 GB opslagcapaciteit,339.0,CAT S40,4,71
-Huawei,Android 6.0 Marshmallow,"5,7 inch Quad HD-scherm",64 GB opslagcapaciteit,399.0,Huawei Nexus 6P 64 GB Zwart,4.5,391
-Profoon,Extra grote toetsen,Grote letters en cijferweergave,Noodknop,59.99,Profoon PM-660 Zwart,0,0
-Profoon,Extra grote toetsen,Grote letters en cijferweergave,Noodknop,59.99,Profoon PM-660 Rood,0,0
-LG,Android 7.1 Nougat,"5,5 inch Full HD scherm",32 GB opslagcapaciteit,299.0,LG Q6 Blauw,4.5,3
-Wiko,Android 7.1 Nougat,"5,7 inch HD scherm",32 GB opslagcapaciteit,199.99,Wiko View Zwart,4.5,1
+Huawei,Android 6.0 Marshmallow,"5,2 inch Full HD scherm",16 GB opslagcapaciteit,245.0,Huawei P9 Lite Zwart,4.5,181
+Huawei,Android 6.0 Marshmallow,"5,2 inch Full HD scherm",16 GB opslagcapaciteit,229.0,Huawei P9 Lite Goud,4.5,279
+Lenovo,Android 6.0 Marshmallow,"5,5 inch Quad HD-scherm",32 GB opslagcapaciteit,323.0,Lenovo Moto Z Goud,4.5,16
+Blackberry,Android 6.0 Marshmallow,"5,5 inch Quad HD-scherm",32 GB opslagcapaciteit,317.0,Blackberry DTEK60,4.5,46
+Huawei,Android 7.0 Nougat,"5,9 inch Full HD-scherm",64 GB opslagcapaciteit,599.0,Huawei Mate 9 Grijs,5,73
+HP,Windows 10,"5,96 inch Quad HD scherm",64 GB opslagcapaciteit,599.0,HP Elite x3 Zwart,3.5,3
+General,Android 7.0 Nougat,5 inch HD scherm,32 GB opslagcapaciteit,199.0,General Mobile GM6 Wit,4.5,11
 HP,Windows 10,"5,96 inch Quad HD scherm",64 GB opslagcapaciteit,849.0,HP Elite x3 + Docking Station Zwart,4.5,5

@@ -8,7 +8,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # reading data
-PRODUCTINFO = pd.read_csv('data/productinfo.csv')
+PRODUCTINFO = pd.read_csv('data/productinfo_prep.csv')
 
 # price distribution per brand
 X_PIXELS, Y_PIXELS, DPI = 1500, 1000, 150

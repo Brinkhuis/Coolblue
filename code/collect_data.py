@@ -65,4 +65,4 @@ PRODUCTINFO = pd.DataFrame({'brand': BRAND,
                             'highlight1': HIGHLIGHT1,
                             'highlight2': HIGHLIGHT2,
                             'highlight3': HIGHLIGHT3})
-PRODUCTINFO.to_csv('data/productinfo.csv', index=False)
+PRODUCTINFO.to_csv('data/productinfo_raw.csv', index=False)
