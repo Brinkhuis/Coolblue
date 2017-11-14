@@ -17,7 +17,6 @@ def npages(mysoup):
         pagination.append(page_number.text.strip())
     return int(pagination[-2])
 
-BRAND = list()
 PRODUCT = list()
 PRICE = list()
 RATING = list()
@@ -33,7 +32,6 @@ for page in range(1, npages(BeautifulSoup(requests.get(URL).text,
     products = soup.find_all('a', {'class': 'product__title js-product-title'})
     for product in products:
         PRODUCT.append(product.text.strip())
-        BRAND.append(product.text.strip().split(' ')[0])
     prices = soup.find_all('strong', {'class': 'product__sales-price'})
     for price in prices:
         PRICE.append(float(price.text.strip().strip(',-')
@@ -57,12 +55,12 @@ for page in range(1, npages(BeautifulSoup(requests.get(URL).text,
         if highlight_counter > 3:
             highlight_counter = 1
 
-PRODUCTINFO = pd.DataFrame({'brand': BRAND,
-                            'product': PRODUCT,
+PRODUCTINFO = pd.DataFrame({'product': PRODUCT,
                             'price': PRICE,
                             'rating': RATING,
                             'reviews': REVIEWS,
                             'highlight1': HIGHLIGHT1,
                             'highlight2': HIGHLIGHT2,
                             'highlight3': HIGHLIGHT3})
+
 PRODUCTINFO.to_csv('data/productinfo_raw.csv', index=False)

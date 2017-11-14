@@ -8,6 +8,7 @@ import pandas as pd
 PRODUCTINFO = pd.read_csv('data/productinfo_raw.csv')
 
 # feature engineering
+PRODUCTINFO['brand'] = PRODUCTINFO['product'].apply(lambda x: x.strip().split(' ')[0])
 PRODUCTINFO['os'] = PRODUCTINFO['highlight1'].apply(lambda x:
                                                     x.split(' ')[0] + ' ' + x.split(' ')[1]
                                                     if x.startswith(('iOS',
