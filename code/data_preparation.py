@@ -17,7 +17,7 @@ PRODUCTINFO['os'] = PRODUCTINFO['highlight1'].apply(lambda x:
                                                                      'Windows'))
                                                     else '')
 PRODUCTINFO['screensize'] = PRODUCTINFO['highlight2'].apply(lambda x:
-                                                            x.split(' ')[0] + ' ' + x.split(' ')[1]
+                                                            float(x.split(' ')[0].replace(',', '.'))
                                                             if x.endswith('scherm')
                                                             else '')
 PRODUCTINFO['storage'] = PRODUCTINFO['highlight3'].apply(lambda x:
