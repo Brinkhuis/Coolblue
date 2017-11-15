@@ -19,6 +19,8 @@ plt.figure(figsize=(X_INCH, Y_INCH), dpi=DPI)
 sns.boxplot(x='price',
             y='brand',
             data=PRODUCTINFO.groupby('brand').filter(lambda x: len(x) > 5),
+            order=list(PRODUCTINFO.groupby('brand').filter(lambda x: len(x) > 5)
+                       .groupby('brand').price.median().sort_values(ascending=False).index),
             palette='PRGn',
             width=0.75).set_title('Price Distribution per Brand')
 sns.despine(offset=10, trim=True)
