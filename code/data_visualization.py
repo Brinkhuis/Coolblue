@@ -1,5 +1,5 @@
 """
-Visualize the collected data from www.coolblue.nl
+Visualize the data from www.coolblue.nl
 """
 
 # import section
