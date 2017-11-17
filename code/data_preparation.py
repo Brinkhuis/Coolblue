@@ -1,5 +1,5 @@
 """
-Visualize the collected data from www.coolblue.nl
+Add features from scraped raw data
 """
 # import section
 import pandas as pd
