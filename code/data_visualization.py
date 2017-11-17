@@ -30,7 +30,9 @@ plt.savefig('plots/price_distribution_brand.png')
 plt.figure(figsize=(X_INCH, Y_INCH), dpi=DPI)
 sns.boxplot(x='price',
             y='os',
-            data=PRODUCTINFO[PRODUCTINFO.os.notnull()].groupby('os').filter(lambda x: len(x) > 5),
+            data=PRODUCTINFO.groupby('os').filter(lambda x: len(x) > 5),
+            order=list(PRODUCTINFO.groupby('os').filter(lambda x: len(x) > 5)
+                       .groupby('os').price.median().sort_values(ascending=False).index),
             palette='PRGn',
             width=0.75).set_title('Price Distribution per Operating System')
 sns.despine(offset=10, trim=True)
