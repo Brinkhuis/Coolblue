@@ -77,7 +77,7 @@ def main():
     
     df.to_csv(file_name, index=False)
     
-    print(f'{df.shape[0]} records saved to file {file_name}')
+    print(f'{df.shape[0]} records saved to {file_name}')
     
 if __name__ == "__main__":
     main()

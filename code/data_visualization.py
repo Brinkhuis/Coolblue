@@ -25,5 +25,9 @@ sns.boxplot(x='price',
             width=0.75).set_title('Price Distribution per Brand')
 sns.despine(offset=10, trim=True)
 
+
 # save plot
-plt.savefig('../plots/price_distribution_brand.png')
+file_name = '../plots/price_distribution_brand.png'
+plt.savefig(file_name)
+print(f'Visualisation saved to {file_name}')
+plt.close()
