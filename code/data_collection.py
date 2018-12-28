@@ -41,7 +41,7 @@ def get_productinfo(url):
     for product in products:
         product_list.append(product.text.strip())
     
-    prices = soup.find_all('strong', {'class': 'product__sales-price'})
+    prices = soup.find_all('strong', {'class': 'sales-price__current'})
     for price in prices:
         price_list.append(float(price.text.strip().strip(',-').replace('.', '').replace(',', '.')))
     
