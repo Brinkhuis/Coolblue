@@ -19,9 +19,10 @@ def npages(url):
     soup = BeautifulSoup(r.text, 'html.parser')
     
     pagination = list()
-    for page_number in soup.find_all('span', {'class': 'pagination__link-text'}):
+    for page_number in soup.find('ul', {'class': 'pagination__units'}).find_all('li', {'class': 'pagination__item'}):
         pagination.append(page_number.text.strip())
-    return int(pagination[-2])
+
+    return int(pagination[-1])
 
 
 def get_productinfo(url):
@@ -37,22 +38,22 @@ def get_productinfo(url):
     rating_list = list()
     review_list = list()
     
-    products = soup.find_all('a', {'class': 'product__title js-product-title'})
+    products = soup.find_all('img', {'class': 'picture__image'})
     for product in products:
-        product_list.append(product.text.strip())
+        product_list.append(product['alt'])
     
     prices = soup.find_all('strong', {'class': 'sales-price__current'})
     for price in prices:
         price_list.append(float(price.text.strip().strip(',-').replace('.', '').replace(',', '.')))
     
-    ratings = soup.find_all('meter', {'class': 'review-rating--score-meter'})
+    ratings = soup.find_all('div',  {'class': 'review-rating__icons'})
     for rating in ratings:
-        rating_list.append(str(rating).split('value="')[1].split('">')[0])
+        rating_list.append(float(rating['title'].split()[0]))
     
-    reviews = soup.find_all('span', {'class': 'review-rating--reviews'})
+    reviews = soup.find_all('div',  {'class': 'review-rating__icons'})
     for review in reviews:
-        review_list.append(int(review.text.strip().strip(' reviews')))
-
+        review_list.append(int(review['title'].split()[-2]))
+    
     productinfo = pd.DataFrame({'product': product_list,
                                 'price': price_list,
                                 'rating': rating_list,
@@ -67,14 +68,13 @@ def main():
     
     df = pd.DataFrame()
 
-    for page in tqdm(range(1, npages(BASE_URL) + 1)):
+    for page in tqdm(range(1, npages(BASE_URL) + 1), desc='Page'):
         data = get_productinfo(f'{BASE_URL}?pagina={page}')
         df = pd.concat([df, data])
     
     df['brand'] = df['product'].apply(lambda x: x.strip().split(' ')[0])
     
-    file_name = '../data/productinfo.csv'
-    
+    file_name = 'data/productinfo.csv'
     df.to_csv(file_name, index=False)
     
     print(f'{df.shape[0]} records saved to {file_name}')
