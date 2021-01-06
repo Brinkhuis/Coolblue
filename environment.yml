@@ -1,0 +1,14 @@
+name: coolblue
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - matplotlib
+  - seaborn
+  - pandas
+  - pylint
+  - requests
+  - beautifulsoup4
+  - tqdm
+  - pytest
+prefix: /home/rene/miniconda3/envs/coolblue
